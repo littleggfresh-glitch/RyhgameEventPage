@@ -1,0 +1,18 @@
+header {
+    text-align: center;
+    background-color: #2b8eff;
+    color: white;
+
+}
+
+nav {
+    font-weight: bold;
+    font-size: 2em ;
+    background-color: #edeea0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    
+}
