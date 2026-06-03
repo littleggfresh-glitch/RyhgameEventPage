@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="image/ryhthm_icon.jpg"> 
-    <title>RyhthmGameFest-2026</title>
+    <title>Event Web</title>
     <link rel="stylesheet" href="style.css">
 
 
@@ -12,27 +12,128 @@
 <body>
     <header>
         <h1>
-            Welcome To RyhthmGameFest-2026 
+            Welcome to GeeksforGeeks TechCon 2025
         </h1>
 
-        <div> An event prepared for various ryhthm game player to join 
-            <br><i> @By Sega , Lowiro , Pigeon Game </i>
-
-
+        <div> 
+            The Ultimate Technology and Programming Conference
         </div>
 
     </header>
     
     <nav>
-        <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="booth.html">Gamebooth</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="schedule.html">Schedule</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="signup.html">SignUp</a>
+        <a href="#box1">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#box2">Schedule</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#box3">Speakers</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#box4">ContactUs</a>
     </nav>
 
-    <p>
-        
-    </p>
+    <main>
+    <div id="box1">
+
+        <h2>About The event</h2>
+        <p>GeeksforGeeks TechCon 2025 brings together leading minds in programming, tech, and innovation. 
+            Join us for a day of insightful talks, hands-on workshops, and an opportunity to network with fellow geeks and professionals
+            from all around the world.
+         </p>
+
+        </div>
+
+    <div id="box2">
+        <h2>Event Schedule</h2>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Session</th>
+                <th>Contest</th>
+            </tr>
+
+            <tr>
+                <td>9.00AM</td>
+                <td>Opening Keynote</td>
+                <td>GeeksforGeeks Coding Platform</td>
+            </tr>
+            
+             <tr>
+                <td>10.30AM</td>
+                <td>Understanding AI and Machine Learning</td>
+                <td>Mr. Arvind Kumar</td>
+            </tr>
+
+            <tr>
+                <td>1.00PM</td>
+                <td>Lunch Break</td>
+            </tr>
+
+            <tr>
+                <td>2.00PM</td>
+                <td>Exploring the Future of Cloud Computing</td>
+                <td>Ms.Neha Gupta</td>
+            </tr>
+        </table>
+        </div>
+        <div id="box3">
+            <h2>Meet The Speaker</h2>
+            <ul>
+                <dl>
+                    <dt>Dr. Radhika Sharma:</dt>
+                    <dd>AI Expert and Researcher with over 15 years of experience in the field of artificial intelligence and machine learning. Dr. Sharma has published numerous research papers and is a sought-after speaker at international conferences.</dd>
+                    
+                    <dt>Mr. Arvind Kumar:</dt>
+                    <dd>Senior Data Scientist at TechWave, specializing in big data analytics and machine learning. With a background in computer science, Mr. Kumar has contributed to several high-profile projects in the tech industry.</dd>
+                    
+                    <dt>Ms. Neha Gupta:</dt>
+                    <dd>Cloud Computing Specialist at CloudTech, with expertise in cloud architecture and security. Ms. Gupta has been instrumental in designing scalable cloud solutions for various enterprises.</dd>
+                    
+                    <dt>Mr. Sandeep Reddy:</dt>
+                    <dd>Full Stack Developer and Open-Source Contributor, known for his work on popular open-source projects and his contributions to the developer community through workshops and tutorials.</dd>
+                </dl>
+                
+            </ul>
+
+
+
+        </div>
+
+        <div id="box4">
+            <h2>Contact Us</h2>
+
+            <form action="index.php" method="POST">
+                
+                <label for="username">Name</label><br>
+                <input type="text" placeholder="flashmax68" id="username" minlength="5" required><br>
+
+                <label for="email">Email</label><br>
+                <input id="email" type="email" placeholder="flashmax68@gmail.com" required><br>
+
+                <label for="participant">Participant</label> 
+                <input type="radio" id="participant" value="participant" name="type">
+                <label for="staff">Staff</label>
+                <input type="radio" id="staff" value="staff" name="type">
+                <br>
+
+                <label>Join day</label>
+                <select>
+                    <option value="sat">sat</option>
+                    <option value="sun">sun</option>
+                    <option value="both">both</option>
+                    
+                </select><br>
+
+
+
+                <label for ="message">Message</label><br>
+                <textarea id="message" rows="10" cols="50"></textarea><br>
+
+                <input type="submit">
+
+
+            </form>
+
+
+        </div>
+    
+    </main>
 </body>
 </html>
 

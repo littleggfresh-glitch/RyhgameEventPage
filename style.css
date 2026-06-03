@@ -1,18 +1,67 @@
 header {
     text-align: center;
-    background-color: #2b8eff;
+    background-color: #17b32c;
     color: white;
+    padding: 20px;
 
 }
 
 nav {
     font-weight: bold;
     font-size: 2em ;
-    background-color: #edeea0;
+    background-color: #222212;
     text-align: center;
 }
 
 nav a {
     text-decoration: none;
     
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}   
+
+#box1 ,#box2 ,#box3 ,#box4 {
+    min-width: 900px;
+    max-width: 1100px;
+    box-shadow: 3px 3px 5px grey;
+    margin: auto;
+}
+
+table, th, td{
+    border:1px solid grey;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    
+    
+}
+
+td , th {
+    padding: 10px;
+    text-align: left;
+}
+
+h2 {
+    text-align:left;
+    color:blue;
+
+}
+dt{
+    color:blue;
+    font-weight: bold;
+    min-width: 100px;
+}
+
+dd{
+    margin-left: 0;
+}
+dl {
+    
+    gap: 10px;
+    margin: bottom 8px;
+
 }
