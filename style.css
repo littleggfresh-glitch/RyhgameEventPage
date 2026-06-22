@@ -107,6 +107,3 @@ dl div{
     margin-bottom: 10px;
 }
 
-table tr:nth-child(even) {
-    background-color:#f9f9f941;
-}
